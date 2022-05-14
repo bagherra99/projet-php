@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(250, 250, 250);
+}
+
+.container{
+    margin-top: 10%;
+}
+
+.element{
+    margin: 0 auto ;
+    height: 100px;
+    width: 500px;
+    background-color: #fff;
+    box-shadow: 1px 1px 10px black;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.element p{
+    font-size: 1.2rem;
+}
+
